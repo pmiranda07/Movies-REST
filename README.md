@@ -13,7 +13,7 @@
 
 - **GET** */api/movies* ->  list all existing movies
 - **GET** */api/movies/{movieOid}* -> lists the movie with id *movieOid*
-- **GET** */api/movies/filteredByDate?date=YYYY-MM-DD* -> lists all movies launched after date (expects date as a param)
+- **GET** */api/movies/filteredByDate?date=YYYY-MM-DD* -> lists all movies launched after *date* (expects *date* as a param)
 - **POST** */api/movies* -> creates a movie (expects a movie object in body)
 - **DELETE** */api/movies/{movieOid}* -> deletes the movie with id *movieOid*
 - **DELETE** */api/movies* -> deletes all existing movies
